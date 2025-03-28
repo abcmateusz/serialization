@@ -36,3 +36,5 @@ print("wczytane imiona:", wczytaj_imiona("imiona.pkl"))
 ludzie = [Czlowiek(imie, int(input(f"podaj rok urodzenia dla {imie}: "))) for imie in imiona]
 zapisz_ludzi("ludzie.pkl", ludzie)
 print("obiekty:", wczytaj_ludzi("ludzie.pkl"))
+
+
